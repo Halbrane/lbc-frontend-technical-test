@@ -23,6 +23,46 @@
       "senderId": 4,
       "senderNickname": "Elodie",
       "lastMessageTimestamp": 1625648667
+    },
+    {
+      "lastMessageTimestamp": 1678737431,
+      "recipientId": 3,
+      "recipientNickname": "Patrick",
+      "senderId": 2,
+      "senderNickname": "Jeremie",
+      "id": 4
+    },
+    {
+      "lastMessageTimestamp": 1678785619,
+      "recipientId": 4,
+      "recipientNickname": "Elodie",
+      "senderId": 2,
+      "senderNickname": "Jeremie",
+      "id": 5
+    },
+    {
+      "lastMessageTimestamp": 1678790574,
+      "recipientId": 8,
+      "recipientNickname": "Jean",
+      "senderId": 1,
+      "senderNickname": "Thibaut",
+      "id": 6
+    },
+    {
+      "lastMessageTimestamp": 1678790763,
+      "recipientId": 6,
+      "recipientNickname": "Morgane",
+      "senderId": 1,
+      "senderNickname": "Thibaut",
+      "id": 7
+    },
+    {
+      "lastMessageTimestamp": 1678790770,
+      "recipientId": 10,
+      "recipientNickname": "Pierre",
+      "senderId": 1,
+      "senderNickname": "Thibaut",
+      "id": 10
     }
   ],
   "messages": [
@@ -53,6 +93,83 @@
       "timestamp": 1620284667,
       "authorId": 2,
       "body": "Bonjour c'est le premier message de la seconde conversation"
+    },
+    {
+      "conversationId": 1,
+      "authorId": 1,
+      "timestamp": 1678790538,
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id": 5
+    },
+    {
+      "conversationId": 6,
+      "authorId": 1,
+      "timestamp": 1678790618,
+      "body": "Hello Jean, it's Thibaut !!!",
+      "id": 6
+    },
+    {
+      "conversationId": 7,
+      "authorId": 6,
+      "timestamp": 1678790877,
+      "body": "Hello Thibaut !",
+      "id": 7
+    },
+    {
+      "conversationId": 10,
+      "authorId": 1,
+      "timestamp": 1678791012,
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id": 8
+    },
+    {
+      "conversationId": 10,
+      "authorId": 10,
+      "timestamp": 1678791053,
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "id": 9
+    },
+    {
+      "conversationId": 1,
+      "authorId": 1,
+      "timestamp": 1678791105,
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "id": 10
+    },
+    {
+      "conversationId": 1,
+      "authorId": 1,
+      "timestamp": 1678791106,
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "id": 11
+    },
+    {
+      "conversationId": 1,
+      "authorId": 1,
+      "timestamp": 1678791107,
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "id": 12
+    },
+    {
+      "conversationId": 1,
+      "authorId": 2,
+      "timestamp": 1678791149,
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id": 13
+    },
+    {
+      "conversationId": 1,
+      "authorId": 2,
+      "timestamp": 1678791156,
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "id": 14
+    },
+    {
+      "conversationId": 1,
+      "authorId": 2,
+      "timestamp": 1678791157,
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "id": 15
     }
   ],
   "users": [
@@ -74,6 +191,36 @@
     {
       "id": 4,
       "nickname": "Elodie",
+      "token": "xxxx"
+    },
+    {
+      "id": 5,
+      "nickname": "Vincent",
+      "token": "xxxx"
+    },
+    {
+      "id": 6,
+      "nickname": "Morgane",
+      "token": "xxxx"
+    },
+    {
+      "id": 7,
+      "nickname": "Emilie",
+      "token": "xxxx"
+    },
+    {
+      "id": 8,
+      "nickname": "Jean",
+      "token": "xxxx"
+    },
+    {
+      "id": 9,
+      "nickname": "Cassandra",
+      "token": "xxxx"
+    },
+    {
+      "id": 10,
+      "nickname": "Pierre",
       "token": "xxxx"
     }
   ]

@@ -1,0 +1,25 @@
+/*--- Info user ---*/
+
+.containerUser{
+    background-color: #FF00CC;
+    border-radius: 10px;
+    color: #fff;
+    margin: 0.5em;
+    flex-grow: 1;
+}
+
+.containerUser h3{
+  margin: 0;  
+  padding: 10px;
+}
+
+.containerUser:hover{
+  opacity: 0.8;
+}
+
+/*--- Link home page ---*/
+
+.userLinkHome{
+  cursor: pointer;
+}
+

@@ -14,58 +14,64 @@ In addition to your code, a README explaining your thought process and your choi
   - Inside the conversation, there is a list of all the messages between these two users.
   - As a user, you can type and send new messages in this conversation
 
-**As your application can be used by millions of users, make sure to provide some robust safety guards.**
+# Launch servers on the projet :
 
-### Sketches :
+- npm run dev
+- npm run start-server
 
-Obvisouly, it is up to you to make something nice and pretty, you are free to design it the way you like. The sketches are here to give you an idea on how it should look.
+# Explain the method :
 
-<details>
-  <summary>Click to see the sketches</summary>
+Steps :
+- Understand the subject. 
+- Plan list of features.
+- Create a simple design.
+- Learn Typescript and Next.js to do the excercice.
+- Start to code.
+- Add data in Database to test different use cases.
+- Debug.
+- Refactoring and add notes.
+- Final check.
+
+# Features :
+
+This is a responsive chat where you can have a conversation with user in a list. 
+
+New conversation :
+
+ - Add a new conversation on the select options.
+ - Displays a list of users with whom you can have a conversation. If you have a conversation active with one of the user, the user is no longer in the list.
+
+(Relaunch Backend server to see the changes because new objects aren't returned otherwise)
+
+Displays previews :
+ - Select preview and start to chat with user.
+ - Deleted (to come)
+
+Displays conversation : 
+
+ - Displays list of message in a conversation between two users.
+ - Add a new message in the conversation.
+
+(Relaunch Backend server to see the changes because new objects aren't returned otherwise)
+
+# Backend message verification :
+
+- Add verification in server/middleware/messages to test if messages that are displayed belong to sender or recipient. (-> Error in BD). 
+To do : - Ensure message author is authenticated user.
+- Send message only on user conversations.
+- At this point, we can't delete because the here nothing on the route to delete "/conversation/convId".
+
+
+# To improve :
+
+- Use Next for the authentification, for using "session" to have user informations all around your app and to logout.
+- Use Websocket for notifications and display new messages in realtime.
+- Write verifications in the back to send informations to the front and display message for user. (You can't do important verifications in the front because it doesn't garantee anything).
+- Write some tests for the components.
+- The button Logout is not displayed on web mobile. I will find a way to make this fancy.
+
+# Thanks:
+
+Thank you for the exercice, I learned a lot of new things.
   
-Mobile list :
 
-![](./sketches/list-mobile.jpg)
-
-Desktop list :
-
-![](./sketches/list-desktop.jpg)
-
-Mobile conversation :
-
-![](./sketches/conv-mobile.jpg)
-
-Desktop conversation :
-
-![](./sketches/conv-desktop.jpg)
-
-</details>
-
-### API :
-
-You can find the API swagger file in `docs/api-swagger.yaml`.
-
-For a better readibility, you can view it on [https://leboncoin.tech/frontend-technical-test/](https://leboncoin.tech/frontend-technical-test/).
-
----
-
-## Bonus 1 :
-
-We provide some conversation samples, but can you improve the app so the user can now create new conversations ?
-
-## Bonus 2 :
-
-Our infrastructure is a bit shaky.. Sometimes the servers are crashing. “It’s not you, it’s me”, but maybe you can display something nice to warn the user and handle it gracefully.
-
-## Do you want to make the app even better ?
-
-Feel free to make as many improvements as you like.
-We love creativity and technical challenges.
-
-If you are out of ideas, here are some thoughts :
-
-- As we want to reach our users anywhere, we need to make sure the app is performing well. What can you do to make it really fast ?
-
-- Our goal is to support everybody in the country, including people with disabilities. As a good citizen and a good developer, can you make sure the app is accessible for everyone ?
-
-- We all love to relax after a hard day’s work. It would be a shame if we didn’t feel confident enough about the upcoming automatic deployment. Are you sure everything has been tested thoroughly ?

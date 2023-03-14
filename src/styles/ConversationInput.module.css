@@ -1,0 +1,45 @@
+/*--- Input Container ---*/
+
+.inputContainer{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--- Input Form ---*/
+
+.inputFormContainer{
+    display: flex;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 1em;
+    width: 95%;
+}
+
+.inputForm{
+    border: none;
+    flex-grow: 1;
+}
+
+.inputForm:focus{
+    outline: none;
+}
+
+/*--- Input Button ---*/
+
+.buttonForm{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+}
+
+.iconButtonForm{
+    color: #000066;
+    font-size: 1.5em;
+}
+
+.iconButtonForm:hover{
+    color: #FF00CC;
+}

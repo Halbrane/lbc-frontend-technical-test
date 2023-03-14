@@ -1,0 +1,98 @@
+/*--- Message ---*/
+
+.userConversationContainer {
+    padding: 0.7em;
+}
+
+.messageContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+/*--- Timestamp ---*/
+
+.subMessageContainer {
+    font-size: 0.7em;
+    padding: 0.2em 0.7em 0.2em 0.7em;
+    color: #fff;
+}
+
+.subMessage {
+    display: flex;
+    flex-direction: row;
+}
+
+.subMessage p {
+    margin: 0.2em;
+}
+
+.alignForCurrentUser {
+    float: right;
+}
+
+/*--- Message for current user (sender) ---*/
+
+.userMessageContainer {
+    margin-left: 4em;
+    float: right;
+}
+
+@media (max-width: 480px) {
+    .userMessageContainer {
+        margin-left: 2em;
+    }
+}
+
+.userBodyMessage {
+    background-color: #FF00CC;
+    color: #fff;
+}
+
+/*--- Message for other user (recipient)---*/
+
+.otherBodyMessage {
+    background-color: #fff;
+}
+
+.otherUserContainer {
+    margin-right: 4em;
+    float: left;
+}
+
+@media (max-width: 480px) {
+    .otherUserContainer {
+        margin-right: 2em;
+    }
+}
+
+/*--- Message ---*/
+
+.bodyMessageContainer {
+    display: flex;
+    align-items: center;
+    padding: 0.7em;
+    border-radius: 20px;
+}
+
+.bodyMessage>* {
+    margin: 0.5em;
+}
+
+.bodyMessage {
+    padding: 0.5em;
+}
+
+
+/*--- Button to extend body ---*/
+
+.buttonExtendBody {
+    cursor: pointer;
+    border: none;
+    color: #3333FF;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.buttonExtendBody:hover {
+    opacity: 0.6;
+}

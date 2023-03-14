@@ -1,0 +1,110 @@
+/*--- All conversations Previews ---*/
+
+.allConversationsContainer {
+    padding: 0.5em;
+}
+
+.allConversations {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    align-items: center;
+    background-color: #000066;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.allConversations:hover {
+    opacity: 0.8;
+}
+
+.active {
+    background-color: #3300FF;
+}
+
+/*--- First letter ---*/
+
+.firstLetter {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #fff;
+    color: #000000;
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+/*--- Tablet and mobile ---*/
+
+@media (max-width: 768px) {
+    .allConversationsContainer {
+        padding: 0px;
+    }
+
+    .allConversations {
+        height: 100%;
+        background-color: transparent;
+        padding: 0px;
+    }
+
+    .firstLetter {
+        width: 60px;
+        height: 60px;
+        padding: 17px;
+        background-color: #000066;
+        color: #fff;
+        font-size: 1.3em;
+    }
+
+    .activeMobile {
+        background-color: #3300FF;
+    }
+}
+
+/*--- Infos user ---*/
+
+.infosConversationContainer {
+    flex: 1;
+    display: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 10px;
+}
+
+.infosConversationContainer p {
+    font-size: 0.8em;
+    margin: 0;
+}
+
+.infosConversationContainer h3 {
+    margin: 0;
+}
+
+/*--- Infos user tablet and mobile ---*/
+
+@media (min-width: 768px) {
+    .infosConversationContainer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*--- Trash ---*/
+
+@media (max-width: 768px) {
+    .trashIconContainer {
+        display: none;
+    }
+}
+
+.trashIcon {
+    padding: 10px;
+}
+
+.trashIcon:hover {
+    color: #FF00CC;
+}

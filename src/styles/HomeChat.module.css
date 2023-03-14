@@ -1,0 +1,94 @@
+/*--- Home page ---*/
+
+.chatHomeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.subChatHomeContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border: solid 2px lightgray;
+    border-radius: 20px;
+}
+
+/*--- Main container for tablet and mobile ---*/
+
+@media (max-width: 768px) {
+    .subChatHomeContainer {
+        width: 80%;
+    }
+}
+
+.subChatHomeContainer>* {
+    margin: 0.5rem;
+}
+
+.subChatHomeContainer>*:last-child {
+    margin-bottom: 0;
+}
+
+/*--- Title ---*/
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleContainer p {
+    margin: 0px;
+}
+
+/*--- Logo ---*/
+
+.logo {
+    width: 200px;
+    height: 50px;
+}
+
+/*--- Home page ---*/
+
+.iconComments {
+    font-size: 2em;
+}
+
+.optionsResponsive .iconOptionsResponsive {
+    font-size: 2em;
+    padding: 10px;
+}
+
+.copyright{
+    text-align: center;
+}
+
+/*--- Logout ---*/
+
+.logoutMobileContainer {
+    display: none;
+}
+
+/*--- Logout tablet and mobile ---*/
+
+@media (max-width: 768px) {
+    .logoutMobileLogo {
+        font-size: 1.5em;
+        color: #000066;
+    }
+    .logoutMobileContainer {
+        display: block;
+        padding: 10px;
+    }
+    .logoutMobileLogo {
+        font-size: 1.5em;
+        color: #000066;
+    }
+}
